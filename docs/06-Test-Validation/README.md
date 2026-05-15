@@ -4,5 +4,5 @@ This section outlines the procedures for testing and validating the KISRAK-M1 mo
 
 ## Table of Contents
 
-*   [Initial Power-Up Protocol (Smoke Test)](01-Smoke-Test.md)
-*   [Gate Signal Analysis with Oscilloscope](02-Gate-Signal-Analysis.md)
+*   [Initial Power-Up Protocol (Smoke Test)](01-Smoke-Test.html)
+*   [Gate Signal Analysis with Oscilloscope](02-Gate-Signal-Analysis.html)

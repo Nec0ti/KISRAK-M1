@@ -2,7 +2,7 @@
 title: KISRAK-M1 Documentation
 description: Comprehensive documentation for the KISRAK-M1 open-source motor driver.
 baseurl: "/KISRAK-M1/" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nec0ti.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Theme settings (using a hypothetical theme like just-the-docs for structure)
 remote_theme: just-the-docs/just-the-docs@v0.3.3 # Example theme, replace with your chosen theme

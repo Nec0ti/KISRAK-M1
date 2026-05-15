@@ -4,6 +4,6 @@ KISRAK-M1 is designed with DIY fabrication in mind. This section provides guidel
 
 ## Table of Contents
 
-*   [Challenges of Single-Layer PCB Design & Ground Plane Strategy](01-Single-Layer-PCB-Challenges.md)
-*   [Thermal Pad Design for Toner Transfer Etching](02-Thermal-Pad-Design.md)
-*   [0.4mm Clearance Selection for Voltage Isolation](03-Clearance-Selection.md)
+*   [Challenges of Single-Layer PCB Design & Ground Plane Strategy](01-Single-Layer-PCB-Challenges.html)
+*   [Thermal Pad Design for Toner Transfer Etching](02-Thermal-Pad-Design.html)
+*   [0.4mm Clearance Selection for Voltage Isolation](03-Clearance-Selection.html)

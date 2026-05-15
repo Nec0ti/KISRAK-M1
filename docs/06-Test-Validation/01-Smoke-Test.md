@@ -19,7 +19,7 @@ After assembling any new electronic circuit, especially a power electronics boar
 
 ### Step 1: Thorough Visual Inspection (Power OFF)
 
-Before applying any power, perform a meticulous visual inspection of the entire assembled PCB.
+Before applying any power, I perform a meticulous visual inspection of the entire assembled PCB.
 
 *   **Solder Joints:** Check every solder joint for bridges, cold joints, or insufficient solder. Ensure all pins are properly connected.
 *   **Component Orientation:** Verify the correct orientation of all polarized components:
@@ -34,7 +34,7 @@ Before applying any power, perform a meticulous visual inspection of the entire 
 
 ### Step 2: Continuity Checks (Power OFF)
 
-Use a DMM in continuity mode to perform several critical checks.
+I use a DMM in continuity mode to perform several critical checks.
 
 *   **Power Rail to Ground:**
     *   Place one DMM probe on the main power input (e.g., $V_{bat}$) and the other on ground.
@@ -50,7 +50,7 @@ Use a DMM in continuity mode to perform several critical checks.
 
 ### Step 3: Current-Limited Power-Up
 
-This is the actual "smoke test" phase. **Crucially, use a current-limited power supply.**
+This is the actual "smoke test" phase. **Crucially, I use a current-limited power supply.**
 
 1.  **Set Power Supply:**
     *   Set the voltage to the lowest operating voltage (e.g., 3.7V for a 1S LiPo).
@@ -62,14 +62,14 @@ This is the actual "smoke test" phase. **Crucially, use a current-limited power 
     *   Listen for any unusual sounds (e.g., buzzing, crackling).
     *   Smell for any burning odors.
 4.  **Measure Voltages:**
-    *   If no immediate issues are observed, use the DMM to measure voltages at key points:
+    *   If no immediate issues are observed, I use the DMM to measure voltages at key points:
         *   Verify the voltage across the main power rails (e.g., $V_{bat}$ after the reverse polarity protection).
         *   Check the logic supply voltage (if applicable).
         *   Measure the voltage at the gate driver outputs (should be low or high depending on the default state).
 5.  **Gradually Increase Voltage/Current Limit:**
-    *   If all looks good, slowly increase the voltage to the nominal operating voltage (e.g., 7.4V).
-    *   Gradually increase the current limit to a higher, but still safe, value (e.g., 500mA - 1A).
-    *   Continue to monitor current draw, component temperatures, and voltages. The quiescent current draw (with no motor connected and no PWM applied) should be very low (a few milliamps).
+    *   If all looks good, I slowly increase the voltage to the nominal operating voltage (e.g., 7.4V).
+    *   I gradually increase the current limit to a higher, but still safe, value (e.g., 500mA - 1A).
+    *   I continue to monitor current draw, component temperatures, and voltages. The quiescent current draw (with no motor connected and no PWM applied) should be very low (a few milliamps).
 
 ---
 

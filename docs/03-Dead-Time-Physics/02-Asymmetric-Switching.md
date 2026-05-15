@@ -28,7 +28,7 @@ When the input signal transitions from HIGH to LOW, the MOSFET gate needs to be 
 
 ## Why Asymmetric Switching is Desirable:
 
-1.  **Dead-Time Generation:** The primary reason for asymmetric switching is to create a reliable dead-time. By delaying the turn-on, we guarantee that there's a period where both MOSFETs in a half-bridge are OFF, preventing shoot-through.
+1.  **Dead-Time Generation:** The primary reason for asymmetric switching is to create a reliable dead-time. By delaying the turn-on, I guarantee that there's a period where both MOSFETs in a half-bridge are OFF, preventing shoot-through.
 2.  **Preventing Cross-Conduction:** A fast turn-off is crucial to quickly remove charge from the gate and ensure the MOSFET is non-conductive before its counterpart turns on. The slower turn-on then adds an additional safety margin.
 3.  **Efficiency Considerations:** While a slower turn-on might seem counter-intuitive for efficiency (as it increases switching losses during turn-on), the overall benefit of preventing shoot-through (which causes catastrophic losses) far outweighs this. Moreover, the fast turn-off helps to minimize switching losses during the turn-off transition.
 4.  **Miller Effect Mitigation:** During the turn-on transition, the MOSFET experiences the Miller effect, where the gate-drain capacitance ($C_{GD}$) is effectively multiplied, requiring more charge to change the gate voltage. A robust gate driver with asymmetric characteristics helps manage this by providing sufficient current for both charging and rapid discharging of the gate.

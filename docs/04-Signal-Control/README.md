@@ -4,6 +4,6 @@ This section focuses on the control aspects of the KISRAK-M1, including PWM sign
 
 ## Table of Contents
 
-*   [PWM Frequency Selection (8kHz - 20kHz)](01-PWM-Frequency-Selection.md)
-*   [Duty Cycle and Average Voltage Calculation](02-Duty-Cycle-Voltage.md)
-*   [Control Logic Table for MCUs](03-Control-Logic-Table.md)
+*   [PWM Frequency Selection (8kHz - 20kHz)](01-PWM-Frequency-Selection.html)
+*   [Duty Cycle and Average Voltage Calculation](02-Duty-Cycle-Voltage.html)
+*   [Control Logic Table for MCUs](03-Control-Logic-Table.html)

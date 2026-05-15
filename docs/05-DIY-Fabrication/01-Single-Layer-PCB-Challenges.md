@@ -24,7 +24,7 @@ Designing a Printed Circuit Board (PCB) for a motor driver, especially one handl
 
 ## KISRAK-M1's Ground Plane Strategy for Single-Layer PCB:
 
-To mitigate the challenges, particularly those related to grounding and power distribution, KISRAK-M1 employs a strategic approach to ground plane design on its single-layer PCB.
+To mitigate the challenges, particularly those related to grounding and power distribution, I employ a strategic approach to ground plane design on my single-layer PCB.
 
 1.  **Maximize Copper for Ground:**
     *   The most critical strategy is to dedicate as much available copper area as possible to the ground plane. After routing all signal and power traces, the remaining unused copper areas are filled with a ground pour.

@@ -4,6 +4,6 @@ Dead-time is a critical concept in H-bridge motor driver design. This section pr
 
 ## Table of Contents
 
-*   [RC-D Circuit Time Constant Calculations](01-RC-D-Calculations.md)
-*   [Asymmetric Switching: Rise Time vs. Fast Discharge](02-Asymmetric-Switching.md)
-*   [Cross-Conduction (Shoot-through) Risk Analysis](03-Cross-Conduction-Analysis.md)
+*   [RC-D Circuit Time Constant Calculations](01-RC-D-Calculations.html)
+*   [Asymmetric Switching: Rise Time vs. Fast Discharge](02-Asymmetric-Switching.html)
+*   [Cross-Conduction (Shoot-through) Risk Analysis](03-Cross-Conduction-Analysis.html)

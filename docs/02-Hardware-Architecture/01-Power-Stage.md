@@ -34,12 +34,12 @@ Where:
     *   $V_{DS}$: -20V
     *   $I_D$: -4.6A
     *   $R_{DS(on)}$: 45mΩ @ $V_{GS}=-4.5V$, 65mΩ @ $V_{GS}=-2.5V$
-    *   Datasheet: [UT2305G Datasheet](../../Docs/datasheets/ut2305g-datasheet.pdf)
+    *   Datasheet: [UT2305G Datasheet](../datasheets/ut2305g-datasheet.pdf)
 
 *   **N-Channel MOSFET (Low-Side): UTM2054G**
     *   $V_{DS}$: 20V
     *   $I_D$: 5.3A
     *   $R_{DS(on)}$: 25mΩ @ $V_{GS}=4.5V$, 35mΩ @ $V_{GS}=2.5V$
-    *   Datasheet: [UTM2054G Datasheet](../../Docs/datasheets/utm2054g-datasheet.pdf)
+    *   Datasheet: [UTM2054G Datasheet](../datasheets/utm2054g-datasheet.pdf)
 
 The chosen MOSFETs offer a good balance of low $R_{DS(on)}$ for their package size (SOT-23), sufficient current and voltage ratings, and logic-level compatibility, making them ideal for the KISRAK-M1's high-performance, compact design. The difference in $R_{DS(on)}$ between P-channel and N-channel MOSFETs is typical, as P-channel devices generally have higher on-resistance for a given die size due to the lower mobility of holes compared to electrons. This is why N-channel MOSFETs are preferred for low-side switching where possible.

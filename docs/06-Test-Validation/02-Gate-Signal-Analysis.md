@@ -64,4 +64,4 @@ After successfully completing the initial smoke test, the next crucial step in v
 
 Repeat the analysis for all half-bridges in the KISRAK-M1 driver to ensure consistent performance across all motor channels.
 
-By meticulously performing gate signal analysis, you can confirm the proper operation of the KISRAK-M1's gate drive stage and dead-time implementation, which are fundamental to its efficiency and reliability. This step is indispensable for validating the hardware design.
+By meticulously performing gate signal analysis, I can confirm the proper operation of the KISRAK-M1's gate drive stage and dead-time implementation, which are fundamental to its efficiency and reliability. This step is indispensable for validating the hardware design.

@@ -1,6 +1,6 @@
 # PWM Frequency Selection: Why 8kHz - 20kHz is Ideal
 
-Pulse Width Modulation (PWM) is the fundamental technique used by KISRAK-M1 to control the speed and direction of DC motors. The choice of PWM frequency is a critical design parameter that impacts motor performance, efficiency, audible noise, and electromagnetic interference (EMI). For KISRAK-M1, an ideal PWM frequency range of 8kHz to 20kHz has been selected based on a balance of these factors.
+Pulse Width Modulation (PWM) is the fundamental technique I use in KISRAK-M1 to control the speed and direction of DC motors. The choice of PWM frequency is a critical design parameter that impacts motor performance, efficiency, audible noise, and electromagnetic interference (EMI). For KISRAK-M1, I have selected an ideal PWM frequency range of 8kHz to 20kHz based on a balance of these factors.
 
 ## Factors Influencing PWM Frequency Selection:
 

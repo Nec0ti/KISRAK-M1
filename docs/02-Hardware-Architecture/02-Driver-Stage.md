@@ -46,11 +46,11 @@ The peak gate current ($I_{G,peak}$) can be approximated by Ohm's law during the
 *   **NPN Transistor: MMBT2222A**
     *   $V_{CEO}$: 40V
     *   $I_C$: 600mA
-    *   Datasheet: [MMBT2222A Datasheet](../../Docs/datasheets/2n2222-datasheet.pdf)
+    *   Datasheet: [MMBT2222A Datasheet](../datasheets/2n2222-datasheet.pdf)
 
 *   **PNP Transistor: MMBT2907A**
     *   $V_{CEO}$: -40V
     *   $I_C$: -600mA
-    *   Datasheet: [MMBT2907A Datasheet](../../Docs/datasheets/2n2907-datasheet.pdf)
+    *   Datasheet: [MMBT2907A Datasheet](../datasheets/2n2907-datasheet.pdf)
 
 These general-purpose BJTs are well-suited for the Totem-Pole configuration, offering sufficient current handling and switching speed for the KISRAK-M1's gate drive requirements. The use of discrete BJTs also contributes to the educational value, allowing for a clear understanding of the gate drive mechanism.

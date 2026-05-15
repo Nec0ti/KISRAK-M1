@@ -1,6 +1,6 @@
 # Control Logic Table for MCUs
 
-Interfacing the KISRAK-M1 motor driver with a microcontroller (MCU) like an STM32 requires a clear understanding of the control signals needed to achieve desired motor movements. The KISRAK-M1 H-bridge is designed to be controlled by two PWM signals and two direction signals per motor, or a simplified two-pin control if the MCU can generate complementary PWM with dead-time. For simplicity and maximum flexibility, we'll consider a common four-pin control scheme per H-bridge, where two pins control the high-side MOSFETs and two pins control the low-side MOSFETs.
+Interfacing the KISRAK-M1 motor driver with a microcontroller (MCU) like an STM32 requires a clear understanding of the control signals needed to achieve desired motor movements. The KISRAK-M1 H-bridge is designed to be controlled by two PWM signals and two direction signals per motor, or a simplified two-pin control if the MCU can generate complementary PWM with dead-time. For simplicity and maximum flexibility, I'll consider a common four-pin control scheme per H-bridge, where two pins control the high-side MOSFETs and two pins control the low-side MOSFETs.
 
 However, a more common and efficient approach for a full H-bridge is to use two PWM signals (one for each half-bridge) and two direction pins, or even just two PWM pins if the driver handles the complementary logic internally. Given the discrete nature of KISRAK-M1, the most direct control involves setting the gate signals for each of the four MOSFETs.
 
