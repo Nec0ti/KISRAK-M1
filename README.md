@@ -10,3 +10,11 @@ KISRAK-M1 is a high-efficiency, discrete H-Bridge motor driver designed for micr
 
 ## Passive Dead-Time Design
 This project uses an RC-D circuit (47R, 2.2nF, 1N4148) to create asymmetrical switching times, preventing shoot-through without complex MCU PWM dead-time configuration.
+
+## Documentation
+For in-depth technical details, design philosophy, and fabrication guides, please refer to the [official documentation](docs/README.md).
+
+## Micromouse Inspiration
+To understand the competitive robotics context for which KISRAK-M1 is designed, watch this excellent overview of Micromouse competitions:
+
+[![Micromouse Competition](https://img.youtube.com/vi/ZMQbHMgK2rw/0.jpg)](https://www.youtube.com/watch?v=ZMQbHMgK2rw)
