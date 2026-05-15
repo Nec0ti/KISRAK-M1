@@ -28,11 +28,4 @@ In PCB design, **clearance** refers to the minimum distance between two uninsula
     *   **Toner Transfer Quality:** Ensuring complete toner transfer for thin isolation lines between copper areas is easier with wider gaps.
 *   **Mechanical Robustness:** Wider clearances also make the board more mechanically robust against minor scratches or debris that could otherwise bridge smaller gaps.
 
-## Impact on Design:
-
-While a 0.4mm clearance provides excellent reliability for DIY fabrication, it does come with a trade-off:
-
-*   **Increased Board Size:** Larger clearances mean that traces cannot be packed as densely, potentially leading to a larger overall PCB footprint. For Micromouse, where space is at a premium, this is a significant consideration.
-*   **Routing Challenges:** It can make routing more challenging on a single-layer board, as it limits the available space for traces.
-
 The KISRAK-M1 design balances these factors, prioritizing ease of DIY fabrication and reliability over absolute minimum board size. The chosen 0.4mm clearance ensures that even with less precise home etching methods, the electrical isolation is robust, contributing to a reliable and safe motor driver.

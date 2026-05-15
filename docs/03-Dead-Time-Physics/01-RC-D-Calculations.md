@@ -10,11 +10,11 @@ The RC-D circuit is designed to create an asymmetric delay in the gate signal.
 
 *   **Resistor (R):** 47Ω
 *   **Capacitor (C):** 2.2nF
-*   **Diode (D):** 1N4148
+*   **Diode (D)::** 1N4148
 
-### Time Constant ($\tau$) Calculation:
+### Time Constant ($	au$) Calculation:
 
-The fundamental characteristic of an RC circuit is its **time constant ($\tau$)**, which represents the time it takes for the capacitor voltage to reach approximately 63.2% of its final value during charging or to discharge to 36.8% of its initial value. It is calculated as:
+The fundamental characteristic of an RC circuit is its **time constant ($	au$)**, which represents the time it takes for the capacitor voltage to reach approximately 63.2% of its final value during charging or to discharge to 36.8% of its initial value. It is calculated as:
 
 $$\tau = R \times C$$
 
@@ -45,4 +45,4 @@ The calculated time constant and the asymmetric switching provided by the RC-D n
 
 The precise value of dead-time is a trade-off. Too short, and shoot-through can occur. Too long, and efficiency can be reduced due to increased conduction losses in the body diodes of the MOSFETs during the dead-time period. The 103.4ns time constant provides a suitable delay for the chosen MOSFETs and switching frequencies in KISRAK-M1.
 
-Datasheet for 1N4148: [1N4148WS Datasheet](../Docs/datasheets/1n4148ws-datasheet.pdf)
+Datasheet for 1N4148: [1N4148WS Datasheet](../../Docs/datasheets/1n4148ws-datasheet.pdf)

@@ -66,6 +66,6 @@ This ensures that the MOSFET's $V_{DS}$ rating is not exceeded.
 *   $V_{RRM}$: 40V
 *   $I_F$: 3A
 *   $V_F$: 0.5V @ 3A
-*   Datasheet: [SS34 Datasheet](../Docs/datasheets/ss34-datasheet.pdf)
+*   Datasheet: [SS34 Datasheet](../../Docs/datasheets/ss34-datasheet.pdf)
 
 The SS34 provides excellent protection against inductive kickback due to its low forward voltage and fast switching characteristics, ensuring the longevity and reliability of the KISRAK-M1 motor driver.
