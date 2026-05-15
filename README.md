@@ -1,5 +1,7 @@
 # KISRAK-M1 Motor Driver
 
+![KISRAK-M1 3D View](docs/images/kisrak-m1_3d-view.png)
+
 KISRAK-M1 is a high-efficiency, discrete H-Bridge motor driver designed for micro-robotics. 
 
 ## Technical Specifications
