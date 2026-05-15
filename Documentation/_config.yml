@@ -1,0 +1,34 @@
+# Site settings
+title: KISRAK-M1 Documentation
+description: Comprehensive documentation for the KISRAK-M1 open-source motor driver.
+baseurl: "/KISRAK-M1/" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Theme settings (using a hypothetical theme like just-the-docs for structure)
+remote_theme: just-the-docs/just-the-docs@v0.3.3 # Example theme, replace with your chosen theme
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+permalink: pretty
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  startings: [html, head, body]
+
+# Navigation structure (defined in _data/navigation.yml)
+nav_external_links:
+  - title: GitHub Repository
+    url: https://github.com/Nec0ti/KISRAK-M1
+    hide_icon: false # set to true to disable the external link icon
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
